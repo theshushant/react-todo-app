@@ -1,0 +1,45 @@
+:root {
+    --color-primary: #1cff19;
+    --color-primary-light: #ff83ed;
+    background-image: linear-gradient(var(--color-primary-light), var(--color-primary));
+    height: 100vh;
+    width: 100vw;
+}
+
+.textWithCheck {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.titleField input {
+    margin-right: 2%;
+    padding: 0.5% 2%;
+    width: 50%;
+}
+
+.textWithCheck input{
+}
+.textWithCheck button {
+    margin-left: 2%;
+}
+
+.textWithCheck h1 {
+    width: 70%;
+
+}
+
+.titleField-button {
+    padding: 0.5% 2%;
+    background-color: #b2c0ff;
+    text-align: center;
+    border-radius: 20%;
+}
+
+
+.main-content {
+    margin: 10% 20%;
+    text-align: start;
+}
+
